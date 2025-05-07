@@ -1,0 +1,211 @@
+@font-face {
+    font-family: "Jockey One";
+    src: url(../../../assets/Project-Resource/fonts/JockeyOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url(../../../assets/Project-Resource/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Anton";
+    src: url(../../../assets/Project-Resource/fonts/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat Medium";
+    src: url(../../../assets/Project-Resource/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Valorant";
+    src: url(../../../assets/Project-Resource/fonts/Valorant-Font.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url(../../../assets/Project-Resource/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat Semi-Bold";
+    src: url(../../../assets/Project-Resource/fonts/Montserrat-SemiBold.ttf);
+}
+
+body{
+    background-color: #F4D18C;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+video{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    top: 50%;
+}
+
+.main{
+    height: auto;
+    width: 100vw;
+}
+
+.topnav {
+    font-family: "Jockey One";
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F4D18C;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    padding: 10px 50px;
+    font-size: 24px;
+}
+
+.topnav a:hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .topnav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .topnav a {
+        display: none;
+        width: 100%;
+        text-align: left;
+        padding: 10px 15px;
+    }
+
+    .topnav.active a {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+}
+
+.logo {
+    position: absolute;
+    left: -5px;
+    transition: 0.4s ease-in-out;
+}
+
+.logo img:hover{
+    content: url("../../../assets/Logo/Giot-Black-Var2.png");
+}
+
+.back{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    font-family: Montserrat Medium;
+    font-size: 20px;
+}
+
+.back a{
+    text-decoration: none;
+    color: black;
+}
+.back:visited{
+    color: black;
+}
+
+.back a:hover{
+    color: #6F0EFF;
+}
+
+
+.display{
+    display: flex;
+    align-items: center;
+}
+
+.agentpict{
+    width: 50%;
+    height: 50%;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.agentpict img{
+    max-width: 50%;
+    max-height: 50%;
+    justify-content: flex-start;
+    transform: scale(1.5);
+    animation: scaleDown 1s ease-out forwards;
+}
+
+.agentdesc{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    animation: scaleDown 1s ease-out forwards;
+}
+
+.agentdesc h1{
+    font-family: Anton;
+    letter-spacing: 30px;
+    font-size: 70px;
+}
+
+.agentdesc p{
+    font-family: Montserrat Regular;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+
+.role{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+@keyframes scaleDown {
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}

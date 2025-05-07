@@ -1,0 +1,46 @@
+.listbox{
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.deadlock, .jett, .omen, .phoenix, .sage{
+    height: auto;
+    width: auto;
+}
+
+.deadlock a, .jett a, .omen a, .phoenix a, .sage a{
+    transition: 1s;
+}
+
+.deadlock a:hover{
+    transform: scale(1.05);
+    content: url("../../assets/Project-Resource/Agents/Deadlock_croppedfull.png");
+    background-image: url("../../assets/Project-Resource/Agents/Deadlock_background.png");
+}
+
+.jett a:hover{
+    transform: scale(1.05);
+    content: url("../../assets/Project-Resource/Agents/Jett_croppedfull.png");
+    background-image: url("../../assets/Project-Resource/Agents/Jett_background.png");
+}
+
+.omen a:hover{
+    transform: scale(1.05);
+    content: url("../../assets/Project-Resource/Agents/Omen_croppedfull.png");
+    background-image: url("../../assets/Project-Resource/Agents/Omen_background.png");
+}
+
+.phoenix a:hover{
+    transform: scale(1.05);
+    content: url("../../assets/Project-Resource/Agents/Phoenix_croppedfull.png");
+    background-image: url("../../assets/Project-Resource/Agents/Phoenix_background.png");
+}
+
+.sage a:hover{
+    transform: scale(1.05);
+    content: url("../../assets/Project-Resource/Agents/Sage_croppedfull.png");
+    background-image: url("../../assets/Project-Resource/Agents/Sage_background.png");
+}

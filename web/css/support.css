@@ -1,0 +1,120 @@
+body{
+    font-family: Montserrat Regular;
+}
+
+.basedisplay{
+    display: flex;
+    justify-content: center;
+    background-color: #dfdcfa;
+    width: 100%;
+    height: 90.5vh;
+}
+
+.submitbase{    
+    margin-top: 50px;
+    width: 50vw;
+    height: 80vh;
+    background-color: white;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: Montserrat Bold;
+    font-size: 30px;
+}
+
+.username{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: Montserrat Medium;
+}
+
+.email{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Montserrat Medium;
+}
+
+.desc{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Montserrat Medium;
+    height: 20vh;
+}
+
+.submitbase select{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submitbase input{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 50px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checkbox label{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin: 8px 50px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+    width: auto;
+}
+
+.submitbutton button{
+    margin-top: 25px;
+    margin-left: 50px;
+    border-color: black;
+}
+
+.submitbutton button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat Bold;
+    justify-content: center;
+    font-size: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 4px;
+    transition: background-color 0.5s ease, transform 0.7s ease;
+}
+
+.submitbutton button:hover{
+    transform: scale(1.05);
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat Bold;
+    justify-content: center;
+    font-size: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 4px;
+}

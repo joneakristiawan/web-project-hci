@@ -1,0 +1,251 @@
+/* NEWS SECTION */
+.quicknews{
+    font-family: Anton;
+    font-size: 50px;
+    color: white;
+    padding: 10px 60px;
+    justify-content: flex-start;
+    align-content: center;
+    text-decoration: none;
+    background-color: black;
+}
+
+.news1-a{
+    text-decoration: none;
+    color: inherit
+}
+.news1-a:visited{
+    color: inherit;
+}
+.descnews1{
+    font-family: "Montserrat Medium";
+    font-size: 16px;
+}
+.descnews1 .category{
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #FF0000;
+}
+.descnews1 h3{
+    letter-spacing: 1px;
+    margin-top: 3px;
+}
+.descnews1 p{
+    font-size: 14px;
+}
+
+.news2-a{
+    text-decoration: none;
+    color: inherit
+}
+.news2-a:visited{
+    color: inherit;
+}
+.descnews2{
+    font-family: "Montserrat Medium";
+    font-size: 16px;
+}
+.descnews2 .category{
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #FF0000;
+}
+.descnews2 h3{
+    letter-spacing: 1px;
+    margin-top: 3px;
+}
+.descnews2 p{
+    font-size: 14px;
+}
+
+.news3-a{
+    text-decoration: none;
+    color: inherit
+}
+.news3-a:visited{
+    color: inherit;
+}
+.descnews3{
+    font-family: "Montserrat Medium";
+    font-size: 16px;
+}
+.descnews3 .category{
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #FF0000;
+}
+.descnews3 h3{
+    letter-spacing: 1px;
+    margin-top: 3px;
+}
+.descnews3 p{
+    font-size: 14px;
+}
+
+.newspict{
+    padding: 25px 10px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+/* AGENTS SECTION */
+
+.youragents{
+    height: 90vh;
+    background-color: #EAE0F9;
+    font-size: 50px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/Project-Resource/background/display/youragentbackground3.jpg);
+    padding: 20px 20px;
+}
+
+.youragentsdesc{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Montserrat Medium";
+    font-size: 20px;
+    text-align: left;
+    align-content: center;
+    padding: 150px;
+}
+
+.headyouragt h3{
+    text-align: left;
+    justify-content: center;
+    font-size: 100px;
+    font-family: Anton;
+    letter-spacing: 2px;
+}
+
+.headyouragt p{
+    text-align: left;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Montserrat Medium;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.headyouragt a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat Bold;
+    justify-content: center;
+    font-size: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 4px;
+    transition: background-color 0.5s ease, transform 0.7s ease;
+}
+
+.headyouragt a:hover{
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: Montserrat Bold;
+    justify-content: center;
+    font-size: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 4px;
+}
+
+.agentpict img{
+    width: 40vw;
+    height: auto;
+    padding: 50px;
+}
+
+/* MAPS SECTION */
+
+.maps{
+    background-image: url(/assets/Project-Resource/background/display/mapsbackground3.jpg);
+    background-color: #7C30DD;
+    background-repeat: no-repeat;
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headmaps h3{
+    color: #FEFCFF;
+    text-align: left;
+    justify-content: center;
+    font-size: 100px;
+    font-family: Anton;
+    letter-spacing: 2px;
+    margin-left: 80px;
+}
+
+.headmaps p{
+    color: #FEFCFF;
+    text-align: left;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Montserrat Medium;
+    margin-left: 80px;
+    margin-right: 100px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.headmaps a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: Montserrat Bold;
+    justify-content: center;
+    font-size: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 4px;
+    margin-left: 79px;
+    transition: background-color 0.5s ease, transform 0.7s ease;
+}
+
+.headmaps a:hover{
+    transform: scale(1.05);
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat Bold;
+    justify-content: center;
+    font-size: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 4px;
+    margin-left: 79px;
+}
+
+.imagemaps{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    margin-right: 60px;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: Montserrat Medium;
+    font-size: 10px;
+    letter-spacing: 1px;
+    height: 10vh;
+}

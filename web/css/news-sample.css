@@ -1,0 +1,54 @@
+.back{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    font-family: Montserrat Medium;
+    font-size: 25px;
+}
+
+.back a{
+    text-decoration: none;
+    color: black;
+}
+.back:visited{
+    color: black;
+}
+
+.back a:hover{
+    color: rebeccapurple;
+}
+
+.marginnews{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.margintitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100vw;
+    height: 20vh;
+    font-family: Montserrat Bold;
+}
+
+.imagenews{
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    word-spacing: 0.5px;
+    
+    font-family: Montserrat Regular;
+}

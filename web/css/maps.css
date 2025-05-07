@@ -1,0 +1,30 @@
+.maps{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.ascentimg{
+    transition: transform 0.7s ease;
+}
+
+.ascentimg img:hover{
+    transform: scale(1 );
+    content: url("../../assets/Project-Resource/Maps/Ascent-potrait-var2.png");
+}
+
+.bindimg img:hover{
+    content: url("../../assets/Project-Resource/Maps/Bind-potrait-var2.png");
+}
+
+.havenimg img:hover{
+    content: url("../../assets/Project-Resource/Maps/Haven-potrait-var2.png");
+}
+
+.iceboximg img:hover{
+    content: url("../../assets/Project-Resource/Maps/Icebox-potrait-var2.png");
+}
+
+.splitimg img:hover{
+    content: url("../../assets/Project-Resource/Maps/Split-potrait-var2.png");
+}

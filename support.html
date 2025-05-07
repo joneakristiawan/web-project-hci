@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./web/css/support-nav.css">
+    <link rel="stylesheet" href="./web/css/support.css">
+    <script src="./web/js/support.js"></script>
+    <title>Support</title>
+    <link rel="icon" href="./assets/Logo  /logo-64x-nobg.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+      <span>
+        <div class="topnav">
+            <a class="logo" href="./index.html">
+              <img src="./assets/Logo/Giot-Black-Var1.png" alt="Logo Giot" width="110px" href="home.html">
+            </a>
+            <a class="active" href="./support.html">SUPPORT</a>
+            <a href="./news.html">NEWS</a>
+            <a href="./agents.html">AGENTS</a>
+            <a href="./maps.html">MAPS</a>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+          </div>
+      </span>
+
+      <span>
+        <div class="basedisplay">
+          <div class="submitbase">
+            <div class="title">
+              SUBMIT REPORT
+            </div>
+            <div class="username">
+              <input type="text" placeholder="Username" id="username">
+            </div>
+
+            <div class="email">
+              <input type="text" placeholder="E-mail" id="email">
+            </div>
+
+            <select name="server" id="region" aria-placeholder="Server" class="dropdown">
+              <option value="" disabled selected hidden>Server</option>
+              <option value="seasia">Asia</option>
+              <option value="europe">Europe</option>
+              <option value="japan">Japan</option>
+              <option value="india">India</option>
+              <option value="northamerica">North America</option>
+            </select>
+
+            <div class="desc">
+              <input type="text" placeholder="Description" id="description">
+            </div>
+
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" id="verification" value="checked"> 
+                I Agree to Receive Follow-up Emails
+              </label>
+            </div>
+
+            <div class="submitbutton">
+              <button id="submitbutton">SUBMIT REPORT</button>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>    
+</body>
+</html>
